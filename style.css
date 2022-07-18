@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    width: 60px;
+    height: 80px;
+}
+
+.title {
+    color: #e31c78;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 40px 0 10px 0;
+}
+
+h2 {
+    text-transform: capitalize;
+    text-align: left;
+}
+
+main {
+    width: 600px;
+    padding: 20px 0;
+}
+
+#add-task {
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+#add {
+    padding: 20px 10px;
+    display: none;
+    justify-content: space-between;
+    gap: 19px;
+    align-items: center;
+}
+
+#add button {
+    width:auto;
+    height: auto;
+    background-color: greenyellow;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+#add input {
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+#task div ,  #task-checked div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+#task div input ,  #task-checked div input{
+    width: 20px;
+    height: 20px;
+    background-color: #e31c78 !important;
+    color: #e31c78;
+    margin: 0 10px;
+    cursor: pointer;
+    flex: 1;
+}
+
+#task div span ,  #task-checked div span{
+    font-size: 18px;
+    font-weight: 700;
+    flex: 18;
+    text-align: left;
+}
+
+#task div button ,  #task-checked div button{
+    width: 30px !important;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #e31c78;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    flex: 1;
+}
+
+.line-through {
+    text-decoration: line-through;
+}

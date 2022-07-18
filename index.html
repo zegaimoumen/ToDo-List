@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>ToDo <span class="title">List</span></h1>
+    <img src="./to.png" alt="#">
+
+    <main>
+        <div class="list">
+            <h2>add some <span class="title">tasks</span></h2>
+            <div id="task"></div>
+        </div>
+        <div id="add">
+            <input type="text" placeholder="Enter task" id="enter-task" value=""/>
+            <button id="add-list">add task</button>
+        </div>
+        <button id="add-task">+</button>
+        <hr />
+        <div class="list-cheked">
+            <h2>Task <span class="title">checked</span></h2>
+            <div id="task-checked"></div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
